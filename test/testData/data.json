@@ -1,0 +1,29 @@
+{
+    "testCases": [
+        {
+            "username": "alice@example.com",
+            "password": "10203040",
+            "expectedOutcome": "Sorry, this user has been locked out."
+        },
+        {
+            "username": "1@2.com",
+            "password": "f-o-o",
+            "expectedOutcome": "Provided credentials do not match any user in this service."
+        },
+        {
+            "username": "",
+            "password": "",
+            "expectedOutcome": "Username is required"
+        },
+        {
+            "username": "bob@example.com",
+            "password": "",
+            "expectedOutcome": "Password is required"
+        },
+        {
+            "username": "bob@example.com",
+            "password": "10203040",
+            "expectedOutcome": "Products"
+        }
+    ]
+}
