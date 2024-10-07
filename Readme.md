@@ -3,17 +3,6 @@
 
 This project contains automated mobile test cases for an Android app using **Appium**, **WebDriverIO**, **Chai**, and **Allure Reports**. The test configuration and the testing framework are designed to ensure robust and scalable mobile automation.
 
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [Running the Tests](#running-the-tests)
-- [Test Reports](#test-reports)
-- [Folder Structure](#folder-structure)
-- [Test Data](#test-data)
-- [Contributing](#contributing)
-- [Author](#author)
 
 ## Getting Started
 
