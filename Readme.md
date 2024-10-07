@@ -76,14 +76,6 @@ You can run the automated tests using WebDriverIO's built-in test runner.
   ```
 
 
-### Chai Assertions
-
-This project uses **Chai** for assertions in the tests, ensuring a clean and readable syntax for validation:
-```javascript
-const expect = require('chai').expect;
-expect(element.isDisplayed()).to.be.true;
-```
-
 ## Test Reports
 
 Test results are generated using **Allure Reports**.
