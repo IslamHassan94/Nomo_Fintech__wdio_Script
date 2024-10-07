@@ -1,5 +1,4 @@
 class LoginPage {
-  // Locators for the elements
   get usernameField() {
     return $(
       'android=new UiSelector().className("android.widget.EditText").instance(0)'

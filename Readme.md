@@ -56,20 +56,25 @@ Follow the steps below to set up the project environment:
 4. **Update Desired Capabilities**  
    Update the desired capabilities for the Android emulator in the WebDriverIO configuration file (`wdio.conf.js`):
    ```javascript
-   capabilities: [{
-      platformName: 'Android',
-      deviceName: 'Android Emulator',
-      automationName: 'uiautomator2',
-      app: '/path/to/your/app.apk',
-      noReset: true
-   }]
+   capabilities: [
+    {
+      "appium:platformName": "Android",
+      "appium:platformVersion": "9.0",
+      "appium:deviceName": "IslamHassanEmulator_Device",
+      "appium:automationName": "uiautomator2",
+      "appium:app": path.join(
+        process.cwd(),
+        "app/android/Android-MyDemoAppRN.1.3.0.build-244.apk"
+      ),
+    },
+  ],
    ```
 
 5. **Run Android Emulator**  
-   Ensure that the Android emulator is running before executing the tests. You can start it manually or use the command:
-   ```bash
-   emulator -avd <your_emulator_name>
+   Ensure that the Android emulator is running before executing the tests. You can start it manually or use the command.
+  
    ```
+
 
 ## Running the Tests
 

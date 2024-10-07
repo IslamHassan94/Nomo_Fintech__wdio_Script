@@ -1,7 +1,6 @@
 const { driver } = require("webdriverio");
 
 class HomePage {
-  // Locators for the elements
   get burgerMenu() {
     return $(
       'android=new UiSelector().className("android.widget.ImageView").instance(0)'
@@ -21,7 +20,7 @@ class HomePage {
   }
   async isAt() {
     try {
-      await this.logo.waitForDisplayed({ timeout: 5000 }); // wait for the logo to be visible
+      await this.logo.waitForDisplayed({ timeout: 5000 });
       return this.logo.isDisplayed();
     } catch (error) {
       console.error("Error waiting for home page to load:", error);
@@ -29,7 +28,6 @@ class HomePage {
     }
   }
 
-  // Method to navigate to the login page
   async goToLoginPage() {
     try {
       await this.burgerMenu.waitForDisplayed({ timeout: 5000 });

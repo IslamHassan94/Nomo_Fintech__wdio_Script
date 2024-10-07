@@ -32,4 +32,14 @@ exports.config = {
     ui: "bdd",
     timeout: 60000,
   },
+  reporters: [
+    [
+      "allure",
+      {
+        outputDir: "allure-results",
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+      },
+    ],
+  ],
 };
