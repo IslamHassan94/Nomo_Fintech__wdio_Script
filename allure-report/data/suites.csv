@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 07 23:37:03 EET 2024","Mon Oct 07 23:37:12 EET 2024","9620","","Login functionality","","","","should login with valid credentials",""
+"passed","Mon Oct 07 23:36:58 EET 2024","Mon Oct 07 23:37:03 EET 2024","5034","","Login functionality","","","","should show 'Password Required' when password is missing",""
+"passed","Mon Oct 07 23:36:55 EET 2024","Mon Oct 07 23:36:58 EET 2024","3248","","Login functionality","","","","should show 'Username Required' when username is missing",""
+"passed","Mon Oct 07 23:36:51 EET 2024","Mon Oct 07 23:36:55 EET 2024","3365","","Login functionality","","","","should show 'No Match' for not found users",""
+"passed","Mon Oct 07 23:36:48 EET 2024","Mon Oct 07 23:36:51 EET 2024","3392","","Login functionality","","","","should show 'Sorry Locked' for locked users",""
+"passed","Mon Oct 07 23:36:44 EET 2024","Mon Oct 07 23:36:48 EET 2024","3704","","Login functionality","","","","should navigate to the login page",""
